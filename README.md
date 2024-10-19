@@ -6,7 +6,7 @@
 </div>
 
 
-[English]("README_EN.md") | Tiếng Việt
+[English](README_EN.md) | Tiếng Việt
 
 ## Nội dung trong video
 
