@@ -5,9 +5,8 @@
   <p>Nhấp vào hình thu nhỏ để xem video 23 phút hướng dẫn sử dụng Gemini API để phân loại bình luận.</p>
 </div>
 
-<p style="font-size: 2rem;">
-    <a href="README_EN.md">English</a>
-</p>
+
+[English]("README_EN.md") | Tiếng Việt
 
 ## Nội dung trong video
 
@@ -30,26 +29,26 @@
 1. Cài đặt uv và ruff:
 
    ```powershell
-   pip install uv ruff
+   $ pip install uv ruff
    ```
 
 2. Nhân bản dự án trên máy của bạn:
 
    ```powershell
-   git clone 'https://github.com/vinhgiga/tutorial.git'
-   cd tutorial
+   $ git clone 'https://github.com/vinhgiga/tutorial.git'
+   $ cd tutorial
    ```
 
 3. Tạo môi trường ảo với python 3.10:
 
    ```powershell
-   uv venv --python 3.10
+   $ uv venv --python 3.10
    ```
 
 4. Cài đặt các thư viện cần thiết:
 
    ```powershell
-   uv pip install -r pyproject.toml
+   $ uv pip install -r pyproject.toml
    ```
 
 5. Lấy khóa API tại [Google AI Studio](https://aistudio.google.com/apikey).
@@ -57,7 +56,7 @@
    Tạo file `.env` bên trong thư mục gốc của dự án và thêm biến môi trường `API_KEY` bằng khóa của bạn. HOẶC bạn có thể chạy lệnh dưới đây. Nhớ thay thế `your_api_key` bằng khóa của bạn:
 
    ```powershell
-   echo 'API_KEY=your_api_key' > .env
+   $ echo 'API_KEY=your_api_key' > .env
    ```
 
 6. Chạy code python theo nhu cầu của bạn:
@@ -66,8 +65,8 @@
 - Code `label.py`: Sử dụng Gemini API để gán nhãn bình luận từ tệp `comments.xlsx` và xuất vào tệp `comments_label.xlsx`
 
   ```powershell
-  uv run extract.py
-  uv run label.py
+  $ uv run extract.py
+  $ uv run label.py
   ```
 
 ## Đọc thêm
