@@ -5,9 +5,7 @@
   <p>Click on the thumbnail to watch a 23-minute video tutorial on using the Gemini API to classify comments.</p>
 </div>
 
-<p style="font-size: 2rem;">
-    <a href="README.md">Tiếng Việt</a>
-</p>
+English | [Tiếng Việt](README.md)
 
 ## Video Contents
 
